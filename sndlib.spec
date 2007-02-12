@@ -1,5 +1,5 @@
 Summary:	A library of sound-related functions
-Summary(pl.UTF-8):   Biblioteka funkcji związanych z dźwiękiem
+Summary(pl.UTF-8):	Biblioteka funkcji związanych z dźwiękiem
 Name:		sndlib
 # based on sndlib.h.in and actual tarball date
 Version:	20.2.20061225
@@ -31,7 +31,7 @@ większości możliwości sprzętu dźwiękowego.
 
 %package devel
 Summary:	Header files for sndlib library
-Summary(pl.UTF-8):   Pliki nagłówkowe biblioteki sndlib
+Summary(pl.UTF-8):	Pliki nagłówkowe biblioteki sndlib
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
@@ -43,7 +43,7 @@ Pliki nagłówkowe biblioteki sndlib.
 
 %package static
 Summary:	Static sndlib library
-Summary(pl.UTF-8):   Statyczna biblioteka sndlib
+Summary(pl.UTF-8):	Statyczna biblioteka sndlib
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
