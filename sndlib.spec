@@ -1,5 +1,5 @@
 Summary:	A library of sound-related functions
-Summary(pl):	Biblioteka funkcji zwi±zanych z d¼wiêkiem
+Summary(pl.UTF-8):   Biblioteka funkcji zwiÄ…zanych z dÅºwiÄ™kiem
 Name:		sndlib
 # based on sndlib.h.in and actual tarball date
 Version:	20.2.20061225
@@ -21,36 +21,36 @@ Windows systems. It provides relatively straightforward access to many
 sound file headers and data types, and most of the features of the
 audio hardware.
 
-%description -l pl
-Biblioteka sndlib to zbiór funkcji obs³uguj±cych pliki d¼wiêkowe i
-sprzêt napisanych w C i dzia³aj±cych aktualnie na systemach SGI (z
-dowoln± bibliotek± d¼wiêkow±), Sun, OSS, ALSA (na Linuksie i innych
-systemach), MacOS X, HPUX i Windows. Udostêpnia w miarê prosty dostêp
-do wielu funkcji i typów danych zwi±zanych z plikami d¼wiêkowymi oraz
-wiêkszo¶ci mo¿liwo¶ci sprzêtu d¼wiêkowego.
+%description -l pl.UTF-8
+Biblioteka sndlib to zbiÃ³r funkcji obsÅ‚ugujÄ…cych pliki dÅºwiÄ™kowe i
+sprzÄ™t napisanych w C i dziaÅ‚ajÄ…cych aktualnie na systemach SGI (z
+dowolnÄ… bibliotekÄ… dÅºwiÄ™kowÄ…), Sun, OSS, ALSA (na Linuksie i innych
+systemach), MacOS X, HPUX i Windows. UdostÄ™pnia w miarÄ™ prosty dostÄ™p
+do wielu funkcji i typÃ³w danych zwiÄ…zanych z plikami dÅºwiÄ™kowymi oraz
+wiÄ™kszoÅ›ci moÅ¼liwoÅ›ci sprzÄ™tu dÅºwiÄ™kowego.
 
 %package devel
 Summary:	Header files for sndlib library
-Summary(pl):	Pliki nag³ówkowe biblioteki sndlib
+Summary(pl.UTF-8):   Pliki nagÅ‚Ã³wkowe biblioteki sndlib
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
 %description devel
 Header files for sndlib library.
 
-%description devel -l pl
-Pliki nag³ówkowe biblioteki sndlib.
+%description devel -l pl.UTF-8
+Pliki nagÅ‚Ã³wkowe biblioteki sndlib.
 
 %package static
 Summary:	Static sndlib library
-Summary(pl):	Statyczna biblioteka sndlib
+Summary(pl.UTF-8):   Statyczna biblioteka sndlib
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static sndlib library.
 
-%description static -l pl
+%description static -l pl.UTF-8
 Statyczna biblioteka sndlib.
 
 %prep
